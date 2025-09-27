@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+  border: 30px solid #1a1a1a;
+  
+}
+
+/* Estrutura da TV */
+.tv {
+  width: 100%;
+  height: 100%;
+  background: #333;
+  border-radius: 40px;
+  padding: 20px;
+  position: relative;
+}
+
+/* Tela da TV */
+.screen {
+  background: #3535ad; /* azul retrô */
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+}
+
+/* Menu pixelado */
+.menu h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  margin: 15px 0;
+  font-size: 40px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.menu a:hover {
+  color: #0000aa;
+  background-color: #fff;
+  border: #fff solid 5px;
+}
+.fotter{
+  font-size: 30px;
+  color: #ffeaa5;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+}
+.sbmi{
+  display: flex;
+  font-size: 30px;
+  margin-top: 70px;
+  gap: 15px;
+  line-height: 110%;
+}
+.h1smb{
+  left: 20%;
+}
+.kris{
+  width: 300px;
+  margin: 30px;
+}
+.psb{
+  margin-top: 90px;
+}
+.headback{
+  display: flex;
+}
+.seta{
+  width: 70px;
+  position: fixed;
+}
+.folder{
+  cursor: pointer;
+  margin: 5px 0;
+  font-size: 40px;
+}
+.folder:hover {
+  color: #0000aa;
+  background-color: #fff;
+  border: #fff solid 5px;
+}
+.children{
+  display: none;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.children a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 3px;
+}
+.pf{
+  width: 450px;
+  height: 400px;
+  border: #fff solid 5px;
+  margin-top: 20px;
+}
+.sp{
+   width: 450px;
+  height: 360px;
+  border: #fff solid 5px;
+  margin-top: 90px;
+}
+.lk{
+   width: 300px;
+  height: 470px;
+  border: #fff solid 5px;
+  margin-top: 20px;
+}
+.ec{
+   width: 450px;
+  height: 300px;
+  border: #fff solid 5px;
+  margin-top: 90px;
+}
+.sbmi a{
+  color: #ffda61;
+}
+.back{
+  right: 7%;
+  position: fixed;
+  color: #fff;
+}
